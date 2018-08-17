@@ -12,7 +12,7 @@ beforeEach(()=> {
   history = { push: jest.fn()}
   wrapper = shallow(
     <EditExpensePage 
-        startEditExpense = {editExpense}
+        startEditExpense = {startEditExpense}
         startRemoveExpense = { startRemoveExpense}
         history = {history}
         expense = {expenses[2]}
